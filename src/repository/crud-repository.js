@@ -1,5 +1,3 @@
-const { where } = require("sequelize");
-
 class CrudRepository {
     constructor(model) {
         this.model = model;
