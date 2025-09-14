@@ -22,7 +22,7 @@ module.exports = {
                 type: Sequelize.INTEGER,
                 allowNull: false,
             },
-            arrivalAirtportId: {
+            arrivalAirportId: {
                 type: Sequelize.INTEGER,
                 allowNull: false,
             },

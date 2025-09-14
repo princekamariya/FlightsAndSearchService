@@ -25,7 +25,7 @@ class FlightRepository {
 
     async createFlight(data) {
         try {
-            const flight = await Flight.create(data);
+            const flight = await Flights.create(data);
             return flight;
         } catch (error) {
             console.log("Somthing went wrong in the repository layer");
